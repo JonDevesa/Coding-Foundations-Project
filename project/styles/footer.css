@@ -1,0 +1,45 @@
+/* Footer styles */
+.footer {
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+}
+
+.footer > .teams {
+    border: 1px solid white;
+    background-color: grey;
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer > .education {
+    border: 1px solid white;
+    background-color: grey;
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer > .privacy {
+    border: 1px solid white;
+    background-color: grey;
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer > .writing {
+    border: 1px solid white;
+    background-color: grey;
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

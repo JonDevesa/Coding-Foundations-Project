@@ -1,0 +1,158 @@
+/* Common nav styles */
+.navigation-wrapper {
+    height: 75px;
+    background-color: black;
+    color: white;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+/* Left column styles */
+.left-column {
+    display: flex;
+    justify-content: center;
+}
+
+.left-column > .codepen-logo img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 700px;
+}
+
+.navigation-wrapper > .center-column > .heading h1 {
+    color: gold;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 20px;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.links-wrapper > .spark {
+    width: 70px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.links-wrapper > .spark a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: grey;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.links-wrapper > .spark i {
+    color: grey;
+    font-size: 20px;
+}
+
+
+/* Right column styles */
+.navigation-wrapper > .right-column{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 700px;
+}
+
+.navigation-wrapper > .right-column > .create {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 10px;
+    background-color: grey;
+    width: 75px;
+    height: 45px;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.navigation-wrapper > .right-column > .create a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navigation-wrapper > .right-column > .create i {
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+.navigation-wrapper > .right-column > .find i {
+    font-size: 30px;
+    color: grey;
+    margin: 5px;
+}
+
+.navigation-wrapper > .right-column > .log-in {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 10px;
+    background-color: grey;
+    width: 75px;
+    height: 45px;
+    border-radius: 2px;
+    margin: 5px; 
+}
+
+.navigation-wrapper > .right-column > .log-in a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navigation-wrapper > .right-column > .sign-in {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 10px;
+    background-color: grey;
+    width: 75px;
+    height: 45px;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.navigation-wrapper > .right-column > .sign-in a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+

@@ -1,0 +1,80 @@
+.middle {
+    background-color: #30323e;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 800px);
+    height: 981px;
+}
+
+.middle > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.middle > .square > .square-text-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.middle > .square > .square-text-wrapper p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+    font-size: 70px;
+    margin: 30px;
+}
+
+.middle > .square > .square-text-wrapper > .square-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.middle > .square > .square-text-wrapper > .square-links > .sign-up {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 10px;
+    background-color: green;
+    width: 200px;
+    height: 45px;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.middle > .square > .square-text-wrapper > .square-links > .sign-up a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.middle > .square > .square-text-wrapper > .square-links > .learn-more {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 10px;
+    background-color: black;
+    width: 200px;
+    height: 45px;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.middle > .square > .square-text-wrapper > .square-links > .learn-more a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.middle > .square > .img-wrapper p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.middle > .square > .img-wrapper img {
+    width: 950px;
+    height: 100%;
+}
